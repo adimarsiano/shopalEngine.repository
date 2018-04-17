@@ -29,8 +29,16 @@ public class Engine {
 
     }
     public void CreateNewUser() {
-
+        //adi marsiano
     }
+
+
+
+
+
+
+
+    //adimarsianoooo
     ////////////////////////////////////////////// TODO SCAN ACTIVITY CONNECTION
     public void scanProductWithUpdate() {
         int serialNumber = Barcode.scanBarcode(new Object());
