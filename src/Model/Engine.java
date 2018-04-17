@@ -38,10 +38,11 @@ public class Engine {
 
 
 
-    //adimarsianoooo
+    //adimarsianoooonn
     ////////////////////////////////////////////// TODO SCAN ACTIVITY CONNECTION
     public void scanProductWithUpdate() {
         int serialNumber = Barcode.scanBarcode(new Object());
+        int bar;
         Product product = findProductDetails(serialNumber);
         printProductDetailsFromBarcode(product); //TODO TALK ABOUT THE OPTIONS
         //TODO RETURN JSON TO THE UI
