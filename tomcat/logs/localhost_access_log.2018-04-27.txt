@@ -13,3 +13,6 @@
 0:0:0:0:0:0:0:1 - - [27/Apr/2018:09:25:18 +0300] "GET /hello/index,html HTTP/1.1" 404 1093
 0:0:0:0:0:0:0:1 - - [27/Apr/2018:09:25:23 +0300] "GET /hello/index.html HTTP/1.1" 200 118
 0:0:0:0:0:0:0:1 - - [27/Apr/2018:09:26:31 +0300] "GET /hello/index.html/YourPeerHostnameOrIPAddress HTTP/1.1" 404 1125
+0:0:0:0:0:0:0:1 - - [27/Apr/2018:15:42:09 +0300] "GET /hello/sayhello HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [27/Apr/2018:15:49:20 +0300] "GET /hello/sayhello HTTP/1.1" 200 277
+0:0:0:0:0:0:0:1 - - [27/Apr/2018:15:59:14 +0300] "GET /hello/sayhi HTTP/1.1" 200 279

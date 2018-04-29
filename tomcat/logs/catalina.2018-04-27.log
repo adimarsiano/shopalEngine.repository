@@ -104,3 +104,109 @@
 27-Apr-2018 10:23:17.228 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 27-Apr-2018 10:23:17.234 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
 27-Apr-2018 10:23:17.235 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:41:14.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+27-Apr-2018 15:41:14.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+27-Apr-2018 15:41:14.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+27-Apr-2018 15:41:14.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Apr-2018 15:41:14.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.6
+27-Apr-2018 15:41:14.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Apr-2018 15:41:14.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home
+27-Apr-2018 15:41:14.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10+46
+27-Apr-2018 15:41:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+27-Apr-2018 15:41:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:41:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:41:14.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2018 15:41:14.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2018 15:41:14.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2018 15:41:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/conf/logging.properties
+27-Apr-2018 15:41:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2018 15:41:14.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2018 15:41:14.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2018 15:41:14.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Apr-2018 15:41:14.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2018 15:41:14.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:41:14.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:41:14.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/temp
+27-Apr-2018 15:41:14.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adimarsiano/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Apr-2018 15:41:14.854 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:41:14.908 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:41:14.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:41:14.926 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:41:14.927 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1271 ms
+27-Apr-2018 15:41:15.051 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2018 15:41:15.052 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+27-Apr-2018 15:41:15.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/docs]
+27-Apr-2018 15:41:15.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/docs] has finished in [832] ms
+27-Apr-2018 15:41:15.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/examples]
+27-Apr-2018 15:41:16.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/examples] has finished in [580] ms
+27-Apr-2018 15:41:16.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/hello]
+27-Apr-2018 15:41:16.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/hello] has finished in [72] ms
+27-Apr-2018 15:41:16.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/host-manager]
+27-Apr-2018 15:41:16.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/host-manager] has finished in [66] ms
+27-Apr-2018 15:41:16.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/manager]
+27-Apr-2018 15:41:16.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/manager] has finished in [50] ms
+27-Apr-2018 15:41:16.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/ROOT]
+27-Apr-2018 15:41:16.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/ROOT] has finished in [54] ms
+27-Apr-2018 15:41:16.734 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:41:16.750 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:41:16.753 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1824 ms
+27-Apr-2018 15:56:08.852 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:56:08.864 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:56:08.916 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2018 15:56:08.998 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:56:09.005 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:56:09.013 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:56:09.014 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:59:07.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+27-Apr-2018 15:59:07.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+27-Apr-2018 15:59:07.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+27-Apr-2018 15:59:07.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-Apr-2018 15:59:07.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.6
+27-Apr-2018 15:59:07.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-Apr-2018 15:59:07.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home
+27-Apr-2018 15:59:07.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10+46
+27-Apr-2018 15:59:07.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+27-Apr-2018 15:59:07.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:59:07.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:59:07.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2018 15:59:07.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2018 15:59:07.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2018 15:59:07.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/conf/logging.properties
+27-Apr-2018 15:59:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2018 15:59:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2018 15:59:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2018 15:59:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Apr-2018 15:59:07.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2018 15:59:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:59:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat
+27-Apr-2018 15:59:07.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/temp
+27-Apr-2018 15:59:07.812 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/adimarsiano/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Apr-2018 15:59:07.897 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:59:07.946 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:59:07.959 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:59:07.961 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:59:07.963 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1168 ms
+27-Apr-2018 15:59:08.082 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2018 15:59:08.083 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+27-Apr-2018 15:59:08.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/docs]
+27-Apr-2018 15:59:08.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/docs] has finished in [766] ms
+27-Apr-2018 15:59:08.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/examples]
+27-Apr-2018 15:59:09.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/examples] has finished in [616] ms
+27-Apr-2018 15:59:09.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/hello]
+27-Apr-2018 15:59:09.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/hello] has finished in [85] ms
+27-Apr-2018 15:59:09.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/host-manager]
+27-Apr-2018 15:59:09.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/host-manager] has finished in [92] ms
+27-Apr-2018 15:59:09.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/manager]
+27-Apr-2018 15:59:09.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/manager] has finished in [61] ms
+27-Apr-2018 15:59:09.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/ROOT]
+27-Apr-2018 15:59:09.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/adimarsiano/Documents/intellij projects/shopal/tomcat/webapps/ROOT] has finished in [42] ms
+27-Apr-2018 15:59:09.776 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 15:59:09.794 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:59:09.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1838 ms
+27-Apr-2018 17:43:28.329 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 17:43:28.417 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 17:43:28.471 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2018 17:43:28.564 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 17:43:28.577 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 17:43:28.587 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+27-Apr-2018 17:43:28.589 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5019651-8da2-4229-a274-98a3bd969ac1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mongodb_driver_3_4_3_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/Model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopal/Model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/Model/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/Model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopal/Model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/Model/ShoppingList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopal/Model/ShoppingList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/MyScanner/Barcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopal/MyScanner/Barcode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shopal/Ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shopal/Ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shopal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2018-04-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2018-04-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost.2018-04-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2018-04-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2018-04-27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2018-04-27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,56 +29,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Verify_GoogleIDToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Verify_GoogleIDToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3585">
-              <caret line="239" column="2" selection-start-line="239" selection-start-column="2" selection-end-line="239" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/conf/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/conf/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tomcat-users.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/conf/tomcat-users.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newhello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-157">
+              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Localhost/shopal/stocks" pinned="false" current-in-tab="false">
+        <entry file="mongo://Localhost/shopal/stocks">
+          <provider selected="true" editor-type-id="MongoData" />
+        </entry>
+      </file>
+      <file leaf-file-name="Localhost/shopal/stocks" pinned="false" current-in-tab="false">
+        <entry file="mongo://Localhost/shopal/stocks">
+          <provider selected="true" editor-type-id="MongoData" />
+        </entry>
+      </file>
+      <file leaf-file-name="Document.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/bson-3.6.3.jar!/org/bson/Document.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1130">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -71,8 +96,29 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-800">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongoSettings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/mongoSettings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -90,6 +136,18 @@
     <findStrings>
       <find>Connector</find>
       <find>listing</find>
+      <find>out</find>
+      <find>insert</find>
+      <find>update</find>
+      <find>scan</find>
+      <find>project</find>
+      <find>fie</find>
+      <find>and</find>
+      <find>updateStock</find>
+      <find>updateOne</find>
+      <find>getProductQuantity</find>
+      <find>find</find>
+      <find>**</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,29 +156,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Model/Engine.java" />
         <option value="$PROJECT_DIR$/tomcat/conf/server.xml" />
         <option value="$PROJECT_DIR$/tomcat/conf/web.xml" />
         <option value="$PROJECT_DIR$/tomcat/conf/context.xml" />
         <option value="$PROJECT_DIR$/tomcat/conf/tomcat-users.xml" />
         <option value="$PROJECT_DIR$/tomcat/conf/HelloHome.html" />
         <option value="$PROJECT_DIR$/tomcat/conf/HelloServlet.java" />
-        <option value="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java" />
         <option value="$PROJECT_DIR$/src/Model/Verify_GoogleIDToken.java" />
+        <option value="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java" />
+        <option value="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java" />
+        <option value="$PROJECT_DIR$/.idea/mongoSettings.xml" />
+        <option value="$PROJECT_DIR$/src/Ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/Model/Engine.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="757" />
+    <option name="x" value="241" />
+    <option name="y" value="109" />
+    <option name="width" value="1645" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,56 +207,40 @@
             <path>
               <item name="shopal" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopal" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MyScanner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopal" type="b2602c69:ProjectViewProjectNode" />
               <item name="shopal" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shopal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopal" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopal" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shopal" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="webapps" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;mongo&#9;ACTION&#9;ActivateMongoExplorerToolWindow" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,6 +255,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ui.Main" />
+      <module name="shopal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -247,9 +307,14 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -261,28 +326,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="757" extended-state="0" />
+    <frame x="241" y="109" width="1645" height="976" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32136446" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" x="723" y="762" width="1261" height="752" id="Run" order="2" type="WINDOWED" weight="0.2489019" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329429" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" visible="true" weight="0.102932006" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3287879" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18590143" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3003413" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +372,214 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="171" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="mongoClient" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Verify_GoogleIDToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="239" column="2" selection-start-line="239" selection-start-column="2" selection-end-line="239" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/conf/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/conf/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/conf/tomcat-users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -380,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat/conf/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tomcat/conf/HelloHome.html" />
     <entry file="file://$PROJECT_DIR$/tomcat/conf/HelloServlet.java" />
     <entry file="file://$PROJECT_DIR$/tomcat/conf/tomcat-users.xml">
@@ -396,31 +673,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Account.java">
+    <entry file="file://$PROJECT_DIR$/tomcat/conf/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Verify_GoogleIDToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3585">
+        <state relative-caret-position="381">
           <caret line="239" column="2" selection-start-line="239" selection-start-column="2" selection-end-line="239" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/newhello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/mongoSettings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/mongodb-driver-sync-3.7.0-rc0-javadoc.jar!/META-INF/MANIFEST.MF" />
+    <entry file="jar://$PROJECT_DIR$/mongodb-driver-core-3.7.0-rc0.jar!/com/mongodb/connection/SocketStreamHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tomcat/webapps/hello/WEB-INF/classes/HelloServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bson-3.6.3.jar!/org/bson/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1130">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +846,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>MacOS</last-edited>
+          <last-edited>mongodb-driver-3.4.3-javadoc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

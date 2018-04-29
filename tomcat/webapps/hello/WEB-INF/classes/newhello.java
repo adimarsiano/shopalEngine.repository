@@ -1,14 +1,17 @@
+// To save as "<TOMCAT_HOME>\webapps\hello\WEB-INF\classes\AnotherHelloServlet.java"
+import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import java.io.*;
+import javax.servlet.annotation.*;
 
-public class HelloServlet extends HttpServlet {
+@WebServlet("/sayhi")
+public class newhello extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
 
-        // Set the response MIME type of the response message
-        response.setContentType("text/html");
+        // Set the response MIME type
+        response.setContentType("text/html;charset=UTF-8");
         // Allocate a output writer to write the response message into the network socket
         PrintWriter out = response.getWriter();
 
@@ -17,7 +20,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<html>");
             out.println("<head><title>Hello, World</title></head>");
             out.println("<body>");
-            out.println("<h1>Hello, world!</h1>");  // says Hello
+            out.println("<h1>Hello world, again!</h1>");  // says Hello
             // Echo client's request information
             out.println("<p>Request URI: " + request.getRequestURI() + "</p>");
             out.println("<p>Protocol: " + request.getProtocol() + "</p>");
