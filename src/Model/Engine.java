@@ -6,7 +6,9 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.*;
 import org.bson.Document;
 
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import static com.mongodb.client.model.Filters.and;
 import static com.mongodb.client.model.Filters.eq;
@@ -42,7 +44,7 @@ import static com.mongodb.client.model.Projections.*;
 public class Engine {
     MongoDatabase database;
     Stock stocks;
-    User users;
+    //User users;
 
     public Engine() {
         // Connection to mongoDB
@@ -50,13 +52,18 @@ public class Engine {
         // Access to shopalDB
         database = mongoClient.getDatabase("shopal");
         stocks = new Stock(database);
-        users = new User(database);
+        //users = new User(database);
 
 
         // EXP
         //productScan("1", "1");
-        users.connectUser("abc");
-        //stocks.updateProduct("1", "5", "3", "99");
+        //users.connectUser("abc");
+        try {
+            stocks.updateProduct("1", "5", "3", "99");
+        }
+        catch(Exception e){
+
+        }
         //stocks.addProduct("1", "33");
         // END EXP
     }

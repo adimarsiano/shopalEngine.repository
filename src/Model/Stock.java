@@ -5,14 +5,16 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import static com.mongodb.client.model.Filters.and;
 import static com.mongodb.client.model.Filters.eq;
 import static com.mongodb.client.model.Projections.*;
 
 public class Stock{
-    private MongoCollection<Document> stocks;
+    private  MongoCollection<Document> stocks;
 
     /** Public: **/
     // connection to DB collection : stocks
@@ -38,7 +40,7 @@ public class Stock{
                         .append("available", "1").append("limit", "0"))));
     }
 
-    // update exist product after we scan him (throwing to can) -> available = available -1
+    // update exist product after we scan it (throwing to the can) -> available = available -1
     public void updateProductAfterScan(String stockId, String productId) throws Exception {
         int available;
         String availableStr;
@@ -135,4 +137,6 @@ public class Stock{
 
         return quantity;
     }
+
+
 }

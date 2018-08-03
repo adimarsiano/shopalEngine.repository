@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class Product {
     private int serialNumber;
-    private String productName;
+    private String name;
     private Date date;
     private int count = 1;
 
@@ -15,34 +15,32 @@ public class Product {
         return count;
     }
 
-    public void setCount(int count) {
-        this.count = count;
-    }
-
     public int getSerialNumber() {
         return serialNumber;
     }
 
-    public String getProductName() {
-        return productName;
+    public String getName() {
+        return name;
     }
 
     public Date getDate() {
         return date;
     }
 
-
-    public void setProductName(String productName) {
-        this.productName = productName;
+    public void setCount(int count) {
+        this.count = count;
     }
 
     public void setSerialNumber(int serialNumber) {
         this.serialNumber = serialNumber;
     }
 
+    public void setName(String productName) {
+        this.name = productName;
+    }
+
     public void setDate(Date date) {
         this.date = date;
     }
-
 
 }
